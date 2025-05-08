@@ -9,7 +9,12 @@ libraries = [
     "langchain-experimental",
     "langgraph",
     "langchain-cli",
-    "langsmith"
+    "langsmith",
+    "notebook", 
+    "jupyter",
+    "ipykernel",
+    "dotenv",
+    "langchain_together"
 ]
 
 # Check and print versions
