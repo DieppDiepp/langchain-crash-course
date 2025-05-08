@@ -1,0 +1,23 @@
+# === LangChain Core & Engine ===
+langchain==0.3.25               # Main framework to build LLM-based applications using modular chains and agents
+langchain-core==0.3.58          # Lightweight core module: contains schemas, runtimes, and foundational tools
+
+# === LangChain Plugins / Integrations ===
+langchain-openai==0.3.16        # Official integration for OpenAI models (ChatGPT, GPT-4, embeddings, etc.)
+langchain-community==0.3.23     # Community-contributed integrations: tools, vector stores, retrievers, and more
+langchain-experimental==0.3.4   # Experimental features: BabyAGI, AutoGPT-like agents, graph-based planners...
+
+# === Multi-Agent & Graph-Based Logic ===
+langgraph==0.4.2                # Build LLM workflows as directed graphs – ideal for complex, multi-step logic
+
+# === Dev Tools & Deployment ===
+langchain-cli==0.0.36           # Official CLI tool to create, run, test, and deploy LangChain projects
+langsmith==0.3.42               # Observability platform: log, trace, and debug LLM apps with full visibility
+
+# As of the 0.3 release, LangChain uses Pydantic 2 internally.
+
+# === .ipynb packet
+notebook 
+jupyter 
+ipykernel
+dotenv
